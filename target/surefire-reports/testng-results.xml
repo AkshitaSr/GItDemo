@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-29T18:44:53 CDT" name="Suite" finished-at="2021-07-29T18:45:12 CDT" duration-ms="19529">
+    <groups>
+    </groups>
+    <test started-at="2021-07-29T18:44:53 CDT" name="Validating Navigation Bar" finished-at="2021-07-29T18:45:02 CDT" duration-ms="9308">
+      <class name="RealTime.ValidatingHeader">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:RealTime.ValidatingHeader@56e07a08]" started-at="2021-07-29T18:44:53 CDT" name="initialize" finished-at="2021-07-29T18:45:02 CDT" duration-ms="9068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateNavBar()[pri:0, instance:RealTime.ValidatingHeader@56e07a08]" started-at="2021-07-29T18:45:02 CDT" name="validateNavBar" finished-at="2021-07-29T18:45:02 CDT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RealTime.ValidatingHeader@56e07a08]" started-at="2021-07-29T18:45:02 CDT" name="tearDown" finished-at="2021-07-29T18:45:02 CDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RealTime.ValidatingHeader -->
+    </test> <!-- Validating Navigation Bar -->
+    <test started-at="2021-07-29T18:44:53 CDT" name="Validating Text" finished-at="2021-07-29T18:45:08 CDT" duration-ms="15322">
+      <class name="RealTime.Validation">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:RealTime.Validation@6e46d9f4]" started-at="2021-07-29T18:44:53 CDT" name="initialize" finished-at="2021-07-29T18:45:06 CDT" duration-ms="13139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAppTitle()[pri:0, instance:RealTime.Validation@6e46d9f4]" started-at="2021-07-29T18:45:06 CDT" name="validateAppTitle" finished-at="2021-07-29T18:45:08 CDT" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RealTime.Validation@6e46d9f4]" started-at="2021-07-29T18:45:08 CDT" name="tearDown" finished-at="2021-07-29T18:45:08 CDT" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RealTime.Validation -->
+    </test> <!-- Validating Text -->
+    <test started-at="2021-07-29T18:44:53 CDT" name="Validating User Login" finished-at="2021-07-29T18:45:11 CDT" duration-ms="17809">
+      <class name="RealTime.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:RealTime.HomePage@72b16078]" started-at="2021-07-29T18:44:53 CDT" name="initialize" finished-at="2021-07-29T18:44:56 CDT" duration-ms="3525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="homePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:RealTime.HomePage@72b16078]" started-at="2021-07-29T18:44:56 CDT" name="homePageNavigation" data-provider="getData" finished-at="2021-07-29T18:45:07 CDT" duration-ms="10673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method signature="homePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:RealTime.HomePage@72b16078]" started-at="2021-07-29T18:45:07 CDT" name="homePageNavigation" data-provider="getData" finished-at="2021-07-29T18:45:11 CDT" duration-ms="3416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RealTime.HomePage@72b16078]" started-at="2021-07-29T18:45:11 CDT" name="tearDown" finished-at="2021-07-29T18:45:11 CDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RealTime.HomePage -->
+    </test> <!-- Validating User Login -->
+    <test started-at="2021-07-29T18:44:53 CDT" name="Validating Forget Password" finished-at="2021-07-29T18:45:12 CDT" duration-ms="19529">
+      <class name="RealTime.ForgetPwdTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:RealTime.ForgetPwdTest@26be6ca7]" started-at="2021-07-29T18:44:53 CDT" name="initialize" finished-at="2021-07-29T18:45:06 CDT" duration-ms="12987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="getForgetPassword()[pri:0, instance:RealTime.ForgetPwdTest@26be6ca7]" started-at="2021-07-29T18:45:06 CDT" name="getForgetPassword" finished-at="2021-07-29T18:45:12 CDT" duration-ms="6409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getForgetPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RealTime.ForgetPwdTest@26be6ca7]" started-at="2021-07-29T18:45:12 CDT" name="tearDown" finished-at="2021-07-29T18:45:12 CDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RealTime.ForgetPwdTest -->
+    </test> <!-- Validating Forget Password -->
+  </suite> <!-- Suite -->
+</testng-results>
