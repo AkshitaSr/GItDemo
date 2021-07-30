@@ -36,6 +36,8 @@ public class ValidatingHeader extends Base{
 				LandingPage lp= new LandingPage(driver);
 				Assert.assertTrue(lp.getHeader().isDisplayed());
 				log.info("Successfully validated header");
+				
+				System.out.println("HEADER IS DISPLAYED");
 			
 			}
 		

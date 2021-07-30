@@ -38,6 +38,8 @@ public class Validation extends Base{
 			Assert.assertEquals(lp.getTitle().getText(), "Featured Courses");
 			log.info("Successfully validated text message");
 			
+			System.out.println("Featured Courses iss displayed");
+			
 			
 		}
 		
