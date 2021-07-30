@@ -13,6 +13,7 @@ public class LandingPage {
 	}
 	
 	By signin=By.cssSelector("a[href*='sign_in']");
+	By practicep=By.cssSelector("a[href*='practice-project']");
 	By title= By.cssSelector("div[class='pull-left']");
 	By header= By.cssSelector("div[class='header-upper']");
 
@@ -21,6 +22,13 @@ public class LandingPage {
 		LoginPage l= new LoginPage(driver);
 		return l; 
 	}
+	
+	public PraticeProjectObject praticePage() {
+		driver.findElement(practicep).click();
+		PraticeProjectObject ppo= new PraticeProjectObject(driver);
+		return ppo; 
+	}
+	
 	
 	public WebElement getTitle() {
 		return driver.findElement(title);
