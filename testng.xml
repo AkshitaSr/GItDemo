@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests" >
+<suite name="Suite" parallel="tests">
 <listeners>
 <listener class-name="RealTime.Listeners"/>
 </listeners>
@@ -26,6 +26,12 @@
    <test name="Validating Forget Password">
     <classes>
       <class name="RealTime.ForgetPwdTest"/>
+    </classes>
+        </test>
+        
+         <test name="Validating  Practice project Page">
+    <classes>
+      <class name="RealTime.PracticeProjectTest"/>
     </classes>
         </test>
     
